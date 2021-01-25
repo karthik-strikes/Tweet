@@ -1,0 +1,650 @@
+.mediaViewInfo {
+	--web-view-name: Artboard;
+	--web-view-id: Artboard;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Artboard;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Artboard {
+	position: absolute;
+	width: 1600px;
+	height: 1064px;
+	background-color: rgba(229,10,49,1);
+	overflow: hidden;
+	--web-view-name: Artboard;
+	--web-view-id: Artboard;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Content {
+	position: absolute;
+	width: 740px;
+	height: 881px;
+	left: 760px;
+	top: 100px;
+	overflow: visible;
+}
+#BG {
+	fill: rgba(12,0,0,1);
+}
+.BG {
+	position: absolute;
+	overflow: visible;
+	width: 740px;
+	height: 881px;
+	left: 0px;
+	top: 0px;
+}
+#Text_xn {
+	position: absolute;
+	width: 547px;
+	height: 171px;
+	left: 73px;
+	top: 173px;
+	overflow: visible;
+}
+#WELCOME_BACK {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 293px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(186,62,4,1);
+}
+#Find_the_latest_and_greatest_i {
+	left: 0px;
+	top: 98px;
+	position: absolute;
+	overflow: visible;
+	width: 548px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -7.5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Line_1 {
+	fill: transparent;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 620px;
+	height: 1px;
+	left: 61.5px;
+	top: 749.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Login {
+	position: absolute;
+	width: 617.151px;
+	height: 361px;
+	left: 72.849px;
+	top: 376px;
+	overflow: visible;
+}
+#Create_Account {
+	position: absolute;
+	width: 252px;
+	height: 60px;
+	left: 356.151px;
+	top: 301px;
+	overflow: visible;
+}
+#Rectangle_5 {
+	fill: transparent;
+	stroke: rgba(186,62,4,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_5 {
+	position: absolute;
+	overflow: visible;
+	width: 252px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#Create_Account_xu {
+	left: 59px;
+	top: 17px;
+	position: absolute;
+	overflow: visible;
+	width: 136px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: 404_Error_Page.html;
+	cursor: pointer;
+	line-height: 40px;
+	margin-top: -10px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(186,62,4,1);
+}
+#Login_xv {
+	position: absolute;
+	width: 252px;
+	height: 60px;
+	left: 0.151px;
+	top: 301px;
+	overflow: visible;
+}
+#Rectangle_5_xw {
+	fill: rgba(186,62,4,1);
+}
+.Rectangle_5_xw {
+	position: absolute;
+	overflow: visible;
+	width: 252px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#Login_xx {
+	left: 102px;
+	top: 17px;
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -10px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Forgot_Password {
+	left: 424.151px;
+	top: 179px;
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -7.5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 25px;
+	color: rgba(186,62,4,1);
+}
+#Remember_Me {
+	position: absolute;
+	width: 221.151px;
+	height: 33px;
+	left: 0px;
+	top: 179px;
+	overflow: visible;
+}
+#Icon_awesome-check-square {
+	fill: rgba(186,62,4,1);
+}
+.Icon_awesome-check-square {
+	overflow: visible;
+	position: absolute;
+	width: 31.5px;
+	height: 31.5px;
+	left: 0px;
+	top: 1.212px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Remember_Me_x {
+	left: 66.151px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 156px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -7.5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Password {
+	position: absolute;
+	width: 617px;
+	height: 71px;
+	left: 0.151px;
+	top: 71px;
+	overflow: visible;
+}
+#Rectangle_4 {
+	fill: transparent;
+	stroke: rgba(186,62,4,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 617px;
+	height: 71px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_feather-key {
+	fill: transparent;
+	stroke: rgba(186,62,4,0.502);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Icon_feather-key {
+	overflow: visible;
+	position: absolute;
+	width: 32.999px;
+	height: 32.12px;
+	left: 28.9px;
+	top: 21.713px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_feather-eye {
+	position: absolute;
+	width: 33px;
+	height: 24px;
+	left: 573.2px;
+	top: 23.962px;
+	overflow: visible;
+}
+#Path_3 {
+	fill: transparent;
+}
+.Path_3 {
+	overflow: visible;
+	position: absolute;
+	width: 33px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_4_x {
+	fill: transparent;
+}
+.Path_4_x {
+	overflow: visible;
+	position: absolute;
+	width: 9px;
+	height: 9px;
+	left: 12px;
+	top: 7.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Dots {
+	position: absolute;
+	width: 211px;
+	height: 18px;
+	left: 106px;
+	top: 27px;
+	overflow: hidden;
+}
+#Dots_0 {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 0px;
+	top: 4px;
+	overflow: visible;
+}
+#Ellipse_1_ya {
+	fill: rgba(186,62,4,1);
+}
+.Ellipse_1_ya {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 0px;
+	top: 0px;
+}
+#Dots_1 {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 26px;
+	top: 4px;
+	overflow: visible;
+}
+#Ellipse_1_yc {
+	fill: rgba(186,62,4,1);
+}
+.Ellipse_1_yc {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 0px;
+	top: 0px;
+}
+#Dots_2 {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 52px;
+	top: 4px;
+	overflow: visible;
+}
+#Ellipse_1_ye {
+	fill: rgba(186,62,4,1);
+}
+.Ellipse_1_ye {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 0px;
+	top: 0px;
+}
+#Dots_3 {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 78px;
+	top: 4px;
+	overflow: visible;
+}
+#Ellipse_1_yg {
+	fill: rgba(186,62,4,1);
+}
+.Ellipse_1_yg {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 0px;
+	top: 0px;
+}
+#Dots_4 {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 104px;
+	top: 4px;
+	overflow: visible;
+}
+#Ellipse_1_yi {
+	fill: rgba(186,62,4,1);
+}
+.Ellipse_1_yi {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 0px;
+	top: 0px;
+}
+#Dots_5 {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 130px;
+	top: 4px;
+	overflow: visible;
+}
+#Ellipse_1_yk {
+	fill: rgba(186,62,4,1);
+}
+.Ellipse_1_yk {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 0px;
+	top: 0px;
+}
+#Dots_6 {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 156px;
+	top: 4px;
+	overflow: visible;
+}
+#Ellipse_1_ym {
+	fill: rgba(186,62,4,1);
+}
+.Ellipse_1_ym {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 0px;
+	top: 0px;
+}
+#Dots_7 {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 182px;
+	top: 4px;
+	overflow: visible;
+}
+#Ellipse_1_yo {
+	fill: rgba(186,62,4,1);
+}
+.Ellipse_1_yo {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 0px;
+	top: 0px;
+}
+#Dots_8 {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 208px;
+	top: 4px;
+	overflow: visible;
+}
+#Ellipse_1_yq {
+	fill: rgba(186,62,4,1);
+}
+.Ellipse_1_yq {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 0px;
+	top: 0px;
+}
+#Mail {
+	position: absolute;
+	width: 617px;
+	height: 71px;
+	left: 0.151px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_3 {
+	fill: transparent;
+	stroke: rgba(186,62,4,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 617px;
+	height: 71px;
+	left: 0px;
+	top: 0px;
+}
+#Icon_ionic-ios-mail {
+	position: absolute;
+	width: 29.25px;
+	height: 20.25px;
+	left: 29.925px;
+	top: 25.837px;
+	overflow: visible;
+}
+#Path_1 {
+	fill: rgba(186,62,4,0.502);
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 29.25px;
+	height: 17.811px;
+	left: 0px;
+	top: 2.439px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_2 {
+	fill: rgba(186,62,4,0.502);
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 27.556px;
+	height: 12.874px;
+	left: 0.851px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#hakeemexamplecom {
+	left: 108px;
+	top: 19px;
+	position: absolute;
+	overflow: visible;
+	width: 258px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -7.5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+}
+#Alt_Login {
+	position: absolute;
+	width: 150.953px;
+	height: 80px;
+	left: 295.035px;
+	top: 764px;
+	overflow: visible;
+}
+#Social_Login {
+	position: absolute;
+	width: 150.953px;
+	height: 36.438px;
+	left: 0px;
+	top: 43.563px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: 404_Error_Page.html;
+	cursor: pointer;
+}
+#Icon_awesome-google {
+	fill: rgba(186,62,4,1);
+}
+.Icon_awesome-google {
+	overflow: visible;
+	position: absolute;
+	width: 34.313px;
+	height: 34.875px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-facebook-f {
+	fill: rgba(186,62,4,1);
+}
+.Icon_awesome-facebook-f {
+	overflow: visible;
+	position: absolute;
+	width: 19.281px;
+	height: 36px;
+	left: 131.672px;
+	top: 0.438px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Or_Login_With {
+	left: 14.965px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 125px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -10px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(186,62,4,1);
+}
+#chaewon-lee-VfhoKbFv16Y-unspla {
+	position: absolute;
+	width: 631px;
+	height: 881.5px;
+	left: 169px;
+	top: 100px;
+	overflow: visible;
+}
